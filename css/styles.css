@@ -35,7 +35,7 @@ root {
       115deg,
       rgba(250, 142, 0, 0.705),
       rgba(255, 238, 0, 0)
-    ), url(/img/ima1.jpg);
+    ), url('../img/ima1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
