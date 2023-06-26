@@ -61,169 +61,134 @@
           />
         </div>
         <div class="form-group">
-          <p>Qual opcao melhor descreve sua funcao atual?</p>
+          <p>Qual sua avaliação para  hospetagem no hotel?</p>
           <select id="dropdown" name="role" class="form-control" required>
-            <option disabled selected value>Select current role</option>
-            <option value="student">Student</option>
-            <option value="job">Full Time Job</option>
-            <option value="learner">Full Time Learner</option>
-            <option value="preferNo">Prefer not to say</option>
-            <option value="other">Other</option>
-          </select>
+            <option disabled selected value>Selecione uma opção</option>
+            <option value="Ruim">Ruim</option>
+            <option value="Regular">Regular</option>
+            <option value="Boa">Boa</option>
+            <option value="Otima">Otima</option>
+            </select>
         </div>
     
         <div class="form-group">
-          <p>Would you recommend freeCodeCamp to a friend?</p>
+          <p>Você recomendaria o hotel a um amigo?</p>
           <label>
             <input
               name="user-recommend"
-              value="definitely"
+              value="recomendaria"
               type="radio"
               class="input-radio"
               checked
-            />Definitely</label
+            />Recomendaria</label
           >
           <label>
             <input
               name="user-recommend"
-              value="maybe"
+              value="talvez"
               type="radio"
               class="input-radio"
-            />Maybe</label
+            />Talvez</label
           >
     
           <label
             ><input
               name="user-recommend"
-              value="not-sure"
+              value="nao recomendaria"
               type="radio"
               class="input-radio"
-            />Not sure</label
+            />Nao recomendaria</label
           >
         </div>
     
         <div class="form-group">
           <p>
-            What is your favorite feature of freeCodeCamp?
+            Qual sua avaliação para os funcionarios do hotel?
           </p>
           <select id="most-like" name="mostLike" class="form-control" required>
-            <option disabled selected value>Select an option</option>
-            <option value="challenges">Challenges</option>
-            <option value="projects">Projects</option>
-            <option value="community">Community</option>
-            <option value="openSource">Open Source</option>
+            <option disabled selected value>Selecione uma opção</option>
+            <option value="Ruim">Ruim</option>
+            <option value="Regular">Regular</option>
+            <option value="Boa">Boa</option>
+            <option value="Otima">Otima</option>
           </select>
         </div>
     
         <div class="form-group">
           <p>
-            What would you like to see improved?
-            <span class="clue">(Check all that apply)</span>
+          O que você gostaria que melhorasse no hotel?
           </p>
     
           <label
             ><input
               name="prefer"
-              value="front-end-projects"
+              value="limpeza"
               type="checkbox"
               class="input-checkbox"
-            />Front-end Projects</label
+            />Limpeza</label
           >
           <label>
             <input
               name="prefer"
-              value="back-end-projects"
+              value="Atendimento com os clientes"
               type="checkbox"
               class="input-checkbox"
-            />Back-end Projects</label
+            />Atendimento com os clientes</label
           >
           <label
             ><input
               name="prefer"
-              value="data-visualization"
+              value="Quarto"
               type="checkbox"
               class="input-checkbox"
-            />Data Visualization</label
+            />Quarto</label
           >
           <label
             ><input
               name="prefer"
-              value="challenges"
+              value="Restaurante"
               type="checkbox"
               class="input-checkbox"
-            />Challenges</label
+            />Restaurante</label
           >
           <label
             ><input
               name="prefer"
-              value="open-source-community"
+              value="Piscina"
               type="checkbox"
               class="input-checkbox"
-            />Open Source Community</label
+            />Piscina</label
           >
           <label
             ><input
               name="prefer"
-              value="gitter-help-rooms"
+              value="Banheiro"
               type="checkbox"
               class="input-checkbox"
-            />Gitter help rooms</label
+            />Banheiro</label
           >
           <label
             ><input
               name="prefer"
-              value="videos"
+              value="Garagem"
               type="checkbox"
               class="input-checkbox"
-            />Videos</label
-          >
-          <label
-            ><input
-              name="prefer"
-              value="city-meetups"
-              type="checkbox"
-              class="input-checkbox"
-            />City Meetups</label
-          >
-          <label
-            ><input
-              name="prefer"
-              value="wiki"
-              type="checkbox"
-              class="input-checkbox"
-            />Wiki</label
-          >
-          <label
-            ><input
-              name="prefer"
-              value="forum"
-              type="checkbox"
-              class="input-checkbox"
-            />Forum</label
-          >
-          <label
-            ><input
-              name="prefer"
-              value="additional-courses"
-              type="checkbox"
-              class="input-checkbox"
-            />Additional Courses</label
-          >
-        </div>
-    
+            />Garagem</label
+          div>
+              
         <div class="form-group">
-          <p>Any comments or suggestions?</p>
+          <p>Qual sua sugestao para melhora o hotel?</p>
           <textarea
             id="comments"
             class="input-textarea"
             name="comment"
-            placeholder="Enter your comment here..."
+            placeholder="Digite seu sugestao aqui...."
           ></textarea>
         </div>
     
         <div class="form-group">
           <button type="submit" id="submit" class="submit-button">
-            Submit
+            Envia
           </button>
         </div>
       </form>
